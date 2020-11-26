@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jane - A super concise theme for Hugo</title>
-    <link>https://ray-sun97.github.io/</link>
-    <description>Recent content on Jane - A super concise theme for Hugo</description>
+    <title>孙睿的博客</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 孙睿的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 26 Nov 2020 09:34:13 +0800</lastBuildDate>
     
-        <atom:link href="https://ray-sun97.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Jane 主题预览</title>
-      <link>https://ray-sun97.github.io/post/jane-theme-preview/</link>
+      <link>http://localhost:1313/post/jane-theme-preview/</link>
       <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/jane-theme-preview/</guid>
+      <guid>http://localhost:1313/post/jane-theme-preview/</guid>
       
         <description>&lt;p&gt;主题预览,内容有待填充。&lt;/p&gt;
 </description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>About</title>
-      <link>https://ray-sun97.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       
         <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
 &lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
@@ -45,10 +45,10 @@
     
     <item>
       <title>NAT动态地址转换</title>
-      <link>https://ray-sun97.github.io/post/nat%E5%8A%A8%E6%80%81%E5%9C%B0%E5%9D%80%E8%BD%AC%E6%8D%A2/</link>
+      <link>http://localhost:1313/post/nat%E5%8A%A8%E6%80%81%E5%9C%B0%E5%9D%80%E8%BD%AC%E6%8D%A2/</link>
       <pubDate>Thu, 26 Nov 2020 09:34:13 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/nat%E5%8A%A8%E6%80%81%E5%9C%B0%E5%9D%80%E8%BD%AC%E6%8D%A2/</guid>
+      <guid>http://localhost:1313/post/nat%E5%8A%A8%E6%80%81%E5%9C%B0%E5%9D%80%E8%BD%AC%E6%8D%A2/</guid>
       
         <description>&lt;h2 id=&#34;概念&#34;&gt;概念&lt;/h2&gt;
 &lt;h3 id=&#34;为什么需要nat&#34;&gt;为什么需要NAT&lt;/h3&gt;
@@ -88,7 +88,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201126090724038.png&#34; alt=&#34;image-20201126090724038&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201126090724038.png&#34; alt=&#34;image-20201126090724038&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;nat的三种类型&#34;&gt;NAT的三种类型&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -112,10 +112,10 @@
     
     <item>
       <title>Build a Log Analytics Solution on AWS</title>
-      <link>https://ray-sun97.github.io/post/aws/</link>
+      <link>http://localhost:1313/post/aws/</link>
       <pubDate>Wed, 18 Nov 2020 14:42:24 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/aws/</guid>
+      <guid>http://localhost:1313/post/aws/</guid>
       
         <description>&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
 &lt;ul&gt;
@@ -126,7 +126,7 @@
 &lt;li&gt;使用UI工具绘制结果图表；&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;架构&#34;&gt;架构&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201110111855842.png&#34; alt=&#34;image-20201110111855842&#34; style=&#34;zoom: 80%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201110111855842.png&#34; alt=&#34;image-20201110111855842&#34; style=&#34;zoom: 80%;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在EC2上部署Kinesis Agent持续收集日志；&lt;/li&gt;
 &lt;li&gt;Kinesis Data Firehouse 将日志存入S3中获得持久存储；&lt;/li&gt;
@@ -183,7 +183,7 @@ cp /Fake-Apache-Log-Generator/apache-fake-log-gen.py /tmp/logs/
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;打开AWS控制台，选择Kinesis Data Firehouse，点击创建传输流&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201110131032009.png&#34; alt=&#34;image-20201110131032009&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201110131032009.png&#34; alt=&#34;image-20201110131032009&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;在&lt;strong&gt;名称和源&lt;/strong&gt;页面，创建传输流名称&lt;code&gt;web-log-stream&lt;/code&gt;，在源中选择Direct Put或其它源&lt;/p&gt;
@@ -195,7 +195,7 @@ cp /Fake-Apache-Log-Generator/apache-fake-log-gen.py /tmp/logs/
 &lt;p&gt;点击创建按钮&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201110132052131.png&#34; alt=&#34;image-20201110132052131&#34; style=&#34;zoom: 50%;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201110132052131.png&#34; alt=&#34;image-20201110132052131&#34; style=&#34;zoom: 50%;&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;3-在ec2实例上搭建amazon-kinesis-agent&#34;&gt;3. 在EC2实例上搭建Amazon Kinesis Agent&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;运行以下代码，安装代理&lt;/li&gt;
@@ -263,19 +263,19 @@ cp /Fake-Apache-Log-Generator/apache-fake-log-gen.py /tmp/logs/
 &lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;此时S3中开始出现日志数据文件&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201110171856176.png&#34; alt=&#34;image-20201110171856176&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201110171856176.png&#34; alt=&#34;image-20201110171856176&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;4创建elastic-search服务域&#34;&gt;4.创建Elastic Search服务域&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;打开AWS控制台，选择&lt;strong&gt;Elastic Search&lt;/strong&gt;，点击创建服务域&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201110143041018.png&#34; alt=&#34;image-20201110143041018&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201110143041018.png&#34; alt=&#34;image-20201110143041018&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在&lt;strong&gt;选择生产部署类型&lt;/strong&gt;一页，选择&lt;strong&gt;开发与测试&lt;/strong&gt;，ElasticSearch版本选择默认的版本&lt;/li&gt;
 &lt;li&gt;在&lt;strong&gt;配置域&lt;/strong&gt;页面，Elasticsearch域名设置成&lt;code&gt;web-log&lt;/code&gt;,其他保持默认配置&lt;/li&gt;
 &lt;li&gt;在&lt;strong&gt;配置访问和安全&lt;/strong&gt;页面，&lt;strong&gt;网络配置&lt;/strong&gt;中选择&lt;strong&gt;共有访问权限&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;在&lt;strong&gt;精细访问控制&lt;/strong&gt;中勾选&lt;strong&gt;启用精细访问控制&lt;/strong&gt;，选择&lt;strong&gt;创建主用户&lt;/strong&gt;，设置&lt;strong&gt;主用户名&lt;/strong&gt;以及&lt;strong&gt;密码&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201110172652584.png&#34; alt=&#34;image-20201110172652584&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201110172652584.png&#34; alt=&#34;image-20201110172652584&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;5--创建第二个amazon-kinesis-data-firehouse-delivery-stream&#34;&gt;5.  创建第二个Amazon Kinesis Data Firehouse Delivery Stream&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;打开AWS控制台，选择&lt;strong&gt;Kinesis&lt;/strong&gt;，选择创建传输流，输入名称&lt;code&gt;web-log-data&lt;/code&gt;;&lt;/li&gt;
@@ -291,7 +291,7 @@ cp /Fake-Apache-Log-Generator/apache-fake-log-gen.py /tmp/logs/
 &lt;li&gt;点击&lt;strong&gt;发现架构&lt;/strong&gt;，程序会自动输出示例；&lt;/li&gt;
 &lt;li&gt;点击&lt;strong&gt;Go to SQL editor&lt;/strong&gt;，等待一段时间后，程序会输出示例；&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201112092455105.png&#34; alt=&#34;image-20201112092455105&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201112092455105.png&#34; alt=&#34;image-20201112092455105&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在&lt;strong&gt;SQL编辑器&lt;/strong&gt;中编写下列代码&lt;/li&gt;
 &lt;/ul&gt;
@@ -325,15 +325,15 @@ cp /Fake-Apache-Log-Generator/apache-fake-log-gen.py /tmp/logs/
     
     <item>
       <title>SSM推送CloudWatch自定义指标测试</title>
-      <link>https://ray-sun97.github.io/post/ssm/</link>
+      <link>http://localhost:1313/post/ssm/</link>
       <pubDate>Wed, 18 Nov 2020 11:17:18 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/ssm/</guid>
+      <guid>http://localhost:1313/post/ssm/</guid>
       
         <description>&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
 &lt;p&gt;在实际项目之中，可能会遇到系统存在多台EC2的情况，要想使用CloudWatch监视服务器中的自定义指标，需要通过远程连接到每一台服务器进行设置，操作太过繁琐，也容易出现错误。而现在通过使用Systems Manager可以进行统一的操作配置，运维人员只需要通过SSM就可以远程部署CloudWatch agent并配置自定义指标，对服务器进行统一管理。&lt;/p&gt;
 &lt;h2 id=&#34;架构&#34;&gt;架构&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117140739397.png&#34; alt=&#34;image-20201117140739397&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117140739397.png&#34; alt=&#34;image-20201117140739397&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;操作步骤&#34;&gt;操作步骤&lt;/h2&gt;
 &lt;h3 id=&#34;1-准备工作&#34;&gt;1. 准备工作&lt;/h3&gt;
 &lt;ul&gt;
@@ -368,11 +368,11 @@ cp /Fake-Apache-Log-Generator/apache-fake-log-gen.py /tmp/logs/
 &lt;li&gt;在&lt;strong&gt;AWS控制台&lt;/strong&gt;，选择&lt;strong&gt;IAM服务&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;在&lt;strong&gt;角色&lt;/strong&gt;页面中选择&lt;strong&gt;创建角色&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201116170119929.png&#34; alt=&#34;image-20201116170119929&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201116170119929.png&#34; alt=&#34;image-20201116170119929&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在&lt;strong&gt;选择受信任实体&lt;/strong&gt;中选择&lt;strong&gt;AWS产品&lt;/strong&gt;，之后选择&lt;strong&gt;EC2&lt;/strong&gt;，点击&lt;strong&gt;下一步&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201116170608105.png&#34; alt=&#34;image-20201116170608105&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201116170608105.png&#34; alt=&#34;image-20201116170608105&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;在&lt;strong&gt;权限策略&lt;/strong&gt;中选择一下两条策略，其它保持默认，点击&lt;strong&gt;下一步&lt;/strong&gt;&lt;/p&gt;
@@ -394,75 +394,75 @@ cp /Fake-Apache-Log-Generator/apache-fake-log-gen.py /tmp/logs/
 &lt;p&gt;在&lt;strong&gt;审核&lt;/strong&gt;页面，编辑角色名称，这里设置成&lt;code&gt;SSMInstallCloudWatchagent&lt;/code&gt;，点击&lt;strong&gt;创建角色&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201116171308868.png&#34; alt=&#34;image-20201116171308868&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201116171402670.png&#34; alt=&#34;image-20201116171402670&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201116171308868.png&#34; alt=&#34;image-20201116171308868&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201116171402670.png&#34; alt=&#34;image-20201116171402670&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;将IAM角色附加到EC2实例&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在&lt;strong&gt;AWS控制台&lt;/strong&gt;中点击&lt;strong&gt;EC2&lt;/strong&gt;服务，打开&lt;strong&gt;EC2 Dashboard&lt;/strong&gt;，选择&lt;strong&gt;正在运行的实例&lt;/strong&gt;，在之前建好的两台实例上分别添加IAM 角色&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201116174719411.png&#34; alt=&#34;image-20201116174719411&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201116174719411.png&#34; alt=&#34;image-20201116174719411&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;3-使用systems-manager在实例上部署cloudwatch-agent&#34;&gt;3. 使用Systems Manager在实例上部署CloudWatch agent&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;在&lt;strong&gt;AWS控制台&lt;/strong&gt;中选择&lt;strong&gt;Systems Manager&lt;/strong&gt;服务，在左侧面板中找到&lt;strong&gt;运行命令&lt;/strong&gt;，打开&lt;strong&gt;运行命令&lt;/strong&gt;面板&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117100904883.png&#34; alt=&#34;image-20201117100904883&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117100904883.png&#34; alt=&#34;image-20201117100904883&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;点击&lt;strong&gt;运行命令&lt;/strong&gt;，搜索 &lt;code&gt;AWS-ConfigureAWSPackage&lt;/code&gt;命令并勾选，&lt;strong&gt;版本&lt;/strong&gt;保持默认&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117101150767.png&#34; alt=&#34;image-20201117101150767&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117101150767.png&#34; alt=&#34;image-20201117101150767&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在&lt;strong&gt;命令参数&lt;/strong&gt;中，&lt;strong&gt;Action&lt;/strong&gt;选择&lt;code&gt;Install&lt;/code&gt;，&lt;strong&gt;Installation Type&lt;/strong&gt;选择&lt;code&gt;Uinstall and reinstall&lt;/code&gt;，&lt;strong&gt;Name&lt;/strong&gt;中填写&lt;code&gt;AmazonCloudWatchAgent&lt;/code&gt;（检查拼写，不然可能会安装失败），其它项保持默认&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117102132124.png&#34; alt=&#34;image-20201117102132124&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117102132124.png&#34; alt=&#34;image-20201117102132124&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在&lt;strong&gt;目标&lt;/strong&gt;中选择手动添加实例，将之前建立的两个实例勾选上&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117102249371.png&#34; alt=&#34;image-20201117102249371&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117102249371.png&#34; alt=&#34;image-20201117102249371&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;输出&lt;/strong&gt;选项中可以选择启用S3桶写入，这里由于是测试就不勾选了，其余保持默认设置，点击&lt;strong&gt;运行&lt;/strong&gt;，等待一段时间后，显示成功，此时CloudWatch agent已经安装在所需实例上了&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117102913634.png&#34; alt=&#34;image-20201117102913634&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117102913634.png&#34; alt=&#34;image-20201117102913634&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;4-配置cloudwatch-agent以监控自定义指标并发送到cloudwatch控制台&#34;&gt;4. 配置CloudWatch agent以监控自定义指标，并发送到CloudWatch控制台&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;首先要配置CloudWatch agent我们需要JSON配置文件，这里我们使用一个小工具https://s3.cn-north-1.amazonaws.com.cn/opstools.light2cloud.com/CloudWatch/index.html，打开网址，输入邮箱并选择所需指标，点击&lt;strong&gt;提交&lt;/strong&gt;，一段时间后我们会收到邮件，附件为JSON配置文件，分别生成Linux与Windows配置文件&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117104421379.png&#34; alt=&#34;image-20201117104421379&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117104421379.png&#34; alt=&#34;image-20201117104421379&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;回到&lt;strong&gt;AWS控制台&lt;/strong&gt;，点击&lt;strong&gt;Systems Manager&lt;/strong&gt;，在左侧面板中选择&lt;strong&gt;参数仓库&lt;/strong&gt;，点击&lt;strong&gt;创建参数&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117113112233.png&#34; alt=&#34;image-20201117113112233&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117113112233.png&#34; alt=&#34;image-20201117113112233&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在&lt;strong&gt;参数详细信息&lt;/strong&gt;中，名称填入&lt;code&gt;AmazonCloudWatchagentLinux&lt;/code&gt;，其他保持默认设置，在&lt;strong&gt;值&lt;/strong&gt;处键入刚才生成的JSON文件的值，点击&lt;strong&gt;创建参数&lt;/strong&gt;（Windows同理，这里就省略了）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117114204426.png&#34; alt=&#34;image-20201117114204426&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117114204426.png&#34; alt=&#34;image-20201117114204426&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;回到&lt;strong&gt;运行命令&lt;/strong&gt;页面，点击&lt;strong&gt;运行命令&lt;/strong&gt;，搜索并勾选&lt;code&gt;AmazonCloudWatch-ManageAgent&lt;/code&gt;，版本保持默认&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117132013900.png&#34; alt=&#34;image-20201117132013900&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117132013900.png&#34; alt=&#34;image-20201117132013900&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;命令参数&lt;/strong&gt;中&lt;strong&gt;Action&lt;/strong&gt;选择&lt;code&gt;configure&lt;/code&gt;，&lt;strong&gt;Mode&lt;/strong&gt;选择&lt;code&gt;ec2&lt;/code&gt;，&lt;strong&gt;Optional Configuration Location&lt;/strong&gt;中先选择之前Linux系统的操作名称，这里选择&lt;code&gt;AmazonCloudWatchagentLinux&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117132351993.png&#34; alt=&#34;image-20201117132351993&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117132351993.png&#34; alt=&#34;image-20201117132351993&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在&lt;strong&gt;目标&lt;/strong&gt;中选择&lt;strong&gt;手动添加实例&lt;/strong&gt;，将Linux实例勾选上&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117132510639.png&#34; alt=&#34;image-20201117132510639&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117132510639.png&#34; alt=&#34;image-20201117132510639&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;其余选项保持默认，点击运行命令，一段时间后，显示运行成功&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117132811616.png&#34; alt=&#34;image-20201117132811616&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117132811616.png&#34; alt=&#34;image-20201117132811616&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;等待两分钟左右，打开&lt;strong&gt;CloudWatch&lt;/strong&gt;面板，可以查看到自定义的内存以及磁盘的指标&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117133825373.png&#34; alt=&#34;image-20201117133825373&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117133825373.png&#34; alt=&#34;image-20201117133825373&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Windos实例与Linux操作相同，重复操作过后，在&lt;strong&gt;CloudWatch&lt;/strong&gt;面板中查看&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/image-20201117134247160.png&#34; alt=&#34;image-20201117134247160&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/image-20201117134247160.png&#34; alt=&#34;image-20201117134247160&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;优化建议&#34;&gt;优化建议&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;在使用SSM向CloudWatch agent推送JSON配置文件时，需要针对不同操作系统的服务器进行操作。在服务器较多的情况下，操作会更加复杂，有可能会出现错误，后期可以优化一下，看看能不能自动甄别JSON配置文件，从而无需对Linux与Windows不同的操作系统进行两次操作；&lt;/li&gt;
@@ -472,10 +472,10 @@ cp /Fake-Apache-Log-Generator/apache-fake-log-gen.py /tmp/logs/
     
     <item>
       <title>Math Preview</title>
-      <link>https://ray-sun97.github.io/post/math-preview/</link>
+      <link>http://localhost:1313/post/math-preview/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/math-preview/</guid>
+      <guid>http://localhost:1313/post/math-preview/</guid>
       
         <description>&lt;p&gt;&lt;a href=&#34;https://www.intmath.com/cg5/katex-mathjax-comparison.php&#34;&gt;KaTeX and MathJax Comparison Demo, currently processed as KaTex&lt;/a&gt;&lt;/p&gt;
 
@@ -681,10 +681,10 @@ f(x) \sim x^2, \quad x\to\infty
     
     <item>
       <title>Shortcodes Preview</title>
-      <link>https://ray-sun97.github.io/post/shortcodes-preview/</link>
+      <link>http://localhost:1313/post/shortcodes-preview/</link>
       <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/shortcodes-preview/</guid>
+      <guid>http://localhost:1313/post/shortcodes-preview/</guid>
       
         <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
 &lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
@@ -1080,16 +1080,16 @@ Yes !.
     
     <item>
       <title>Image Preview</title>
-      <link>https://ray-sun97.github.io/post/image-preview/</link>
+      <link>http://localhost:1313/post/image-preview/</link>
       <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/image-preview/</guid>
+      <guid>http://localhost:1313/post/image-preview/</guid>
       
         <description>&lt;p&gt;Thanks for &lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery&#34;&gt;liwenyip/hugo-easy-gallery&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane/pull/48&#34;&gt;Zebradil · Pull Request #48&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;Now, we could use &lt;code&gt;{{&amp;lt; gallery &amp;gt;}}&lt;/code&gt; shortcode in hugo-theme-jane.&lt;/p&gt;
 &lt;h2 id=&#34;normal-image&#34;&gt;Normal Image&lt;/h2&gt;
 &lt;p&gt;This is an image in &lt;code&gt;static/image&lt;/code&gt; folder.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/example.jpg&#34; alt=&#34;This is an image in static/image folder.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/example.jpg&#34; alt=&#34;This is an image in static/image folder.&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;-figure--shortcode&#34;&gt;&lt;code&gt;{{&amp;lt; figure &amp;gt;}}&lt;/code&gt; shortcode&lt;/h2&gt;
 &lt;h3 id=&#34;figure-image-with-title&#34;&gt;figure image with title&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1200,10 +1200,10 @@ Yes !.
     
     <item>
       <title>Shortcodes Notice Preview</title>
-      <link>https://ray-sun97.github.io/post/shortcode-notice/</link>
+      <link>http://localhost:1313/post/shortcode-notice/</link>
       <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/shortcode-notice/</guid>
+      <guid>http://localhost:1313/post/shortcode-notice/</guid>
       
         <description>&lt;h2 id=&#34;normal-use&#34;&gt;normal use&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Note&lt;/code&gt; example:&lt;/p&gt;
@@ -1303,10 +1303,10 @@ A warning disclaimer
     
     <item>
       <title>Jane-Theme Footnote Preview</title>
-      <link>https://ray-sun97.github.io/post/doc-footnote-preview/</link>
+      <link>http://localhost:1313/post/doc-footnote-preview/</link>
       <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/doc-footnote-preview/</guid>
+      <guid>http://localhost:1313/post/doc-footnote-preview/</guid>
       
         <description>&lt;p&gt;Hugo-theme-jane optimized for footnote. When you mouse hover the footnote&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; , footnote content will be displayed.&lt;/p&gt;
 &lt;h2 id=&#34;footnote-1&#34;&gt;Footnote-1&lt;/h2&gt;
@@ -1417,10 +1417,10 @@ A warning disclaimer
     
     <item>
       <title>English Creating a New Theme</title>
-      <link>https://ray-sun97.github.io/post/english-preview/</link>
+      <link>http://localhost:1313/post/english-preview/</link>
       <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/english-preview/</guid>
+      <guid>http://localhost:1313/post/english-preview/</guid>
       
         <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;
@@ -3125,10 +3125,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>This is a very long title This is a very long title This is a very long title This is a very long title This is a very long title</title>
-      <link>https://ray-sun97.github.io/post/this-is-a-very-long-title/</link>
+      <link>http://localhost:1313/post/this-is-a-very-long-title/</link>
       <pubDate>Wed, 30 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/this-is-a-very-long-title/</guid>
+      <guid>http://localhost:1313/post/this-is-a-very-long-title/</guid>
       
         <description>&lt;p&gt;This is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long title&lt;/p&gt;
 </description>
@@ -3137,10 +3137,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://ray-sun97.github.io/post/creating-a-new-theme/</link>
+      <link>http://localhost:1313/post/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/creating-a-new-theme/</guid>
+      <guid>http://localhost:1313/post/creating-a-new-theme/</guid>
       
         <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;
@@ -4846,10 +4846,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://ray-sun97.github.io/post/goisforlovers/</link>
+      <link>http://localhost:1313/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/goisforlovers/</guid>
+      <guid>http://localhost:1313/post/goisforlovers/</guid>
       
         <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for
 its template engine. It is an extremely lightweight engine that provides a very
@@ -4888,7 +4888,7 @@ functions.&lt;/p&gt;
 &lt;p&gt;Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-&lt;a href=&#34;https://ray-sun97.github.io/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
+&lt;a href=&#34;http://localhost:1313/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
 &lt;p&gt;A variable is accessed by referencing the variable name.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;title&amp;gt;{{ .Title }}&amp;lt;/title&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -4899,7 +4899,7 @@ page you are rendering. More details are available on the
 &lt;h2 id=&#34;functions&#34;&gt;Functions&lt;/h2&gt;
 &lt;p&gt;Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. &lt;a href=&#34;https://ray-sun97.github.io/layout/functions&#34;&gt;Hugo template
+available functions with their own. &lt;a href=&#34;http://localhost:1313/layout/functions&#34;&gt;Hugo template
 functions&lt;/a&gt; provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -5030,7 +5030,7 @@ type (supported by your front matter/config format) and use them however
 you want to inside of your templates.&lt;/p&gt;
 &lt;h2 id=&#34;using-content-page-parameters&#34;&gt;Using Content (page) Parameters&lt;/h2&gt;
 &lt;p&gt;In each piece of content you can provide variables to be used by the
-templates. This happens in the &lt;a href=&#34;https://ray-sun97.github.io/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
+templates. This happens in the &lt;a href=&#34;http://localhost:1313/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn&amp;rsquo;t make a lot of sense. We&amp;rsquo;ve defined a variable in our front matter
@@ -5147,16 +5147,16 @@ so, such as in this example:&lt;/p&gt;
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://ray-sun97.github.io/post/hugoisforlovers/</link>
+      <link>http://localhost:1313/post/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/hugoisforlovers/</guid>
+      <guid>http://localhost:1313/post/hugoisforlovers/</guid>
       
         <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
 &lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
 appropriate version for your os and architecture.&lt;/p&gt;
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://ray-sun97.github.io/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://localhost:1313/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
 &lt;p&gt;Hugo has its own example site which happens to also be the documentation site
 you are reading right now.&lt;/p&gt;
@@ -5212,10 +5212,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>https://ray-sun97.github.io/post/migrate-from-jekyll/</link>
+      <link>http://localhost:1313/post/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/migrate-from-jekyll/</guid>
+      <guid>http://localhost:1313/post/migrate-from-jekyll/</guid>
       
         <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
@@ -5232,7 +5232,7 @@ With Jekyll, something that looked like&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;create-your-hugo-configuration-file&#34;&gt;Create your Hugo configuration file&lt;/h2&gt;
-&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;https://ray-sun97.github.io/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;http://localhost:1313/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
 &lt;h2 id=&#34;set-your-configuration-publish-folder-to-_site&#34;&gt;Set your configuration publish folder to &lt;code&gt;_site&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;The default is for Jekyll to publish to &lt;code&gt;_site&lt;/code&gt; and for Hugo to publish to &lt;code&gt;public&lt;/code&gt;. If, like me, you have &lt;a href=&#34;http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html&#34;&gt;&lt;code&gt;_site&lt;/code&gt; mapped to a git submodule on the &lt;code&gt;gh-pages&lt;/code&gt; branch&lt;/a&gt;, you&amp;rsquo;ll want to do one of two alternatives:&lt;/p&gt;
 &lt;ol&gt;
@@ -5254,10 +5254,10 @@ With Jekyll, something that looked like&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;convert-jekyll-templates-to-hugo-templates&#34;&gt;Convert Jekyll templates to Hugo templates&lt;/h2&gt;
-&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;https://ray-sun97.github.io/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;http://localhost:1313/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
 &lt;p&gt;As a single reference data point, converting my templates for &lt;a href=&#34;http://heyitsalex.net/&#34;&gt;heyitsalex.net&lt;/a&gt; took me no more than a few hours.&lt;/p&gt;
 &lt;h2 id=&#34;convert-jekyll-plugins-to-hugo-shortcodes&#34;&gt;Convert Jekyll plugins to Hugo shortcodes&lt;/h2&gt;
-&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;https://ray-sun97.github.io/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
+&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;http://localhost:1313/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
 &lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
 &lt;p&gt;As an example, I was using a custom &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb&#34;&gt;&lt;code&gt;image_tag&lt;/code&gt;&lt;/a&gt; plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.&lt;/p&gt;
 &lt;p&gt;Jekyll&amp;rsquo;s plugin:&lt;/p&gt;
@@ -5356,10 +5356,10 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
     
     <item>
       <title>Syntax Highlighting</title>
-      <link>https://ray-sun97.github.io/post/syntax-highlighting/</link>
+      <link>http://localhost:1313/post/syntax-highlighting/</link>
       <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/syntax-highlighting/</guid>
+      <guid>http://localhost:1313/post/syntax-highlighting/</guid>
       
         <description>&lt;p&gt;More detail: &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting/&#34;&gt;Syntax Highlighting | Hugo&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

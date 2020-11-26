@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>技术 on Jane - A super concise theme for Hugo</title>
-    <link>https://ray-sun97.github.io/tags/%E6%8A%80%E6%9C%AF/</link>
-    <description>Recent content in 技术 on Jane - A super concise theme for Hugo</description>
+    <title>技术 on 孙睿的博客</title>
+    <link>http://localhost:1313/tags/%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 技术 on 孙睿的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Nov 2020 11:17:18 +0800</lastBuildDate><atom:link href="https://ray-sun97.github.io/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Nov 2020 11:17:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSM推送CloudWatch自定义指标测试</title>
-      <link>https://ray-sun97.github.io/post/ssm/</link>
+      <link>http://localhost:1313/post/ssm/</link>
       <pubDate>Wed, 18 Nov 2020 11:17:18 +0800</pubDate>
       
-      <guid>https://ray-sun97.github.io/post/ssm/</guid>
+      <guid>http://localhost:1313/post/ssm/</guid>
       <description>&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
 &lt;p&gt;在实际项目之中，可能会遇到系统存在多台EC2的情况，要想使用CloudWatch监视服务器中的自定义指标，需要通过远程连接到每一台服务器进行设置，操作太过繁琐，也容易出现错误。而现在通过使用Systems Manager可以进行统一的操作配置，运维人员只需要通过SSM就可以远程部署CloudWatch agent并配置自定义指标，对服务器进行统一管理。&lt;/p&gt;</description>
     </item>
