@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>docs on 孙睿的博客</title>
-    <link>http://localhost:1313/categories/docs/</link>
+    <link>https://ray-sun97.github.io/categories/docs/</link>
     <description>Recent content in docs on 孙睿的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Nov 2020 11:17:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Nov 2020 11:17:18 +0800</lastBuildDate><atom:link href="https://ray-sun97.github.io/categories/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSM推送CloudWatch自定义指标测试</title>
-      <link>http://localhost:1313/post/ssm/</link>
+      <link>https://ray-sun97.github.io/post/ssm/</link>
       <pubDate>Wed, 18 Nov 2020 11:17:18 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/ssm/</guid>
+      <guid>https://ray-sun97.github.io/post/ssm/</guid>
       <description>&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
 &lt;p&gt;在实际项目之中，可能会遇到系统存在多台EC2的情况，要想使用CloudWatch监视服务器中的自定义指标，需要通过远程连接到每一台服务器进行设置，操作太过繁琐，也容易出现错误。而现在通过使用Systems Manager可以进行统一的操作配置，运维人员只需要通过SSM就可以远程部署CloudWatch agent并配置自定义指标，对服务器进行统一管理。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Math Preview</title>
-      <link>http://localhost:1313/post/math-preview/</link>
+      <link>https://ray-sun97.github.io/post/math-preview/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/math-preview/</guid>
+      <guid>https://ray-sun97.github.io/post/math-preview/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.intmath.com/cg5/katex-mathjax-comparison.php&#34;&gt;KaTeX and MathJax Comparison Demo, currently processed as KaTex&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Shortcodes Preview</title>
-      <link>http://localhost:1313/post/shortcodes-preview/</link>
+      <link>https://ray-sun97.github.io/post/shortcodes-preview/</link>
       <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/shortcodes-preview/</guid>
+      <guid>https://ray-sun97.github.io/post/shortcodes-preview/</guid>
       <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
 &lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
 &lt;p&gt;Hugo created &lt;strong&gt;shortcodes&lt;/strong&gt; to circumvent these limitations.&lt;/p&gt;
@@ -42,32 +42,32 @@
     
     <item>
       <title>Image Preview</title>
-      <link>http://localhost:1313/post/image-preview/</link>
+      <link>https://ray-sun97.github.io/post/image-preview/</link>
       <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/image-preview/</guid>
+      <guid>https://ray-sun97.github.io/post/image-preview/</guid>
       <description>&lt;p&gt;Thanks for &lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery&#34;&gt;liwenyip/hugo-easy-gallery&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane/pull/48&#34;&gt;Zebradil · Pull Request #48&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;Now, we could use &lt;code&gt;{{&amp;lt; gallery &amp;gt;}}&lt;/code&gt; shortcode in hugo-theme-jane.&lt;/p&gt;
 &lt;h2 id=&#34;normal-image&#34;&gt;Normal Image&lt;/h2&gt;
 &lt;p&gt;This is an image in &lt;code&gt;static/image&lt;/code&gt; folder.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/example.jpg&#34; alt=&#34;This is an image in static/image folder.&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://ray-sun97.github.io/image/example.jpg&#34; alt=&#34;This is an image in static/image folder.&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Shortcodes Notice Preview</title>
-      <link>http://localhost:1313/post/shortcode-notice/</link>
+      <link>https://ray-sun97.github.io/post/shortcode-notice/</link>
       <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/shortcode-notice/</guid>
+      <guid>https://ray-sun97.github.io/post/shortcode-notice/</guid>
       <description>normal use Note example: 1 2 3 {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : 1 2 3 {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip 1 2 3 {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info 1 2 3 {{%</description>
     </item>
     
     <item>
       <title>Jane-Theme Footnote Preview</title>
-      <link>http://localhost:1313/post/doc-footnote-preview/</link>
+      <link>https://ray-sun97.github.io/post/doc-footnote-preview/</link>
       <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/doc-footnote-preview/</guid>
+      <guid>https://ray-sun97.github.io/post/doc-footnote-preview/</guid>
       <description>&lt;p&gt;Hugo-theme-jane optimized for footnote. When you mouse hover the footnote&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; , footnote content will be displayed.&lt;/p&gt;</description>
     </item>
     
